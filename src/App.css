@@ -1,0 +1,80 @@
+body{
+  background-image: linear-gradient( rgb(140, 82, 214),rgb(103, 226, 216));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  font-weight: 700;
+  font-size: 70px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+nav img{
+  width: 130px;
+  height: 120px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+nav button{
+  margin-top: 35px;
+  height: 5vh;
+  width: 20vh;
+  border: none;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgb(134, 80, 179);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  transition: 0.4s all ease-out;
+}
+
+nav button:hover{
+  background-color: rgb(94, 158, 218);
+  border: none;
+}
+
+.members{
+  height: 100vh;
+}
+
+.members li{
+list-style: none;
+background: linear-gradient( rgb(166, 235, 149),rgb(203, 226, 103));
+text-align: center;
+margin: 30px;
+border-radius: 20px;
+padding: 20px;
+width: 33vh;
+display: inline-block;
+place-items: center;
+margin-left: 150px;
+margin-bottom: 50px;
+box-shadow: 6px 6px 2px rgb(48, 150, 168);
+}
+
+.members li:hover{
+  box-shadow: 10px 10px 5px rgb(68, 69, 70);
+  transform: scale(1.1);
+}
+
+.members img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 100px;
+  border: 1px solid white;
+}
+
+.info{
+  font-family: cursive;
+  font-weight: 900;
+}
+
